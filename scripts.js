@@ -23,7 +23,7 @@ input.addEventListener("input", () => {
     if (mode === "characters") {
         count = input.value.length;
 
-        counter.textContent = `${count} caractere(s)`;
+        counter.textContent = `${count} caractere(s) com espaço`;
     } else {
         const words = input.value.trim().split(/\s+/);
         count = input.value.trim() === "" ? 0 : words.length;
