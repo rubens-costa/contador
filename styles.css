@@ -8,16 +8,14 @@
     margin-top: 3rem;
     align-items: center;
     gap: 1rem;
-
 }
 
 .field {
-    width: 500px;
+    width: 100%;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    margin: auto;
 }
 
 label {
@@ -25,13 +23,10 @@ label {
 }
 
 textarea {
-    width: 100%;
     font-size: 1rem;
     padding: .5rem;
     border-radius: 5px;
     border: 1px solid #ccc;
-    min-width: 320px;
-    max-width: 800px;
 }
 
 .counter {
